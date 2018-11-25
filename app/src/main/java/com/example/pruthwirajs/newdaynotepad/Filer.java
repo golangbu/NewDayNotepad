@@ -98,7 +98,6 @@ public class Filer {
             return ret;
         }
     }
-
     public String getModifiedTimestamp(String filePath) {
         File fl = new File(filePath);
         if (fl.exists())
